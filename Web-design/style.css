@@ -1,0 +1,110 @@
+/* web fonts */
+
+@font-face {
+    font-family: 'Encode Sans Expanded', sans-serif;
+
+}
+
+/* Base Style */
+* {
+    box-sizing: border-box;
+}
+
+.Logo {
+    width: 25%;
+    padding-top: 5em; 
+    display: block;
+    box-shadow: 10px 10px 50px black;
+    
+  
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.ProfilePhoto {
+    width:  5em;
+    border-radius: 100%;
+    border: 5px #808080 solid;
+    box-shadow: -5px 5px 0px rgba(136, 136, 136, 0.57);
+    display: block;
+    margin: 0 auto;
+
+}
+
+.nav {
+    flex: auto;
+    padding-top: 15em;
+    display: flex;
+    color: #fff;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 1.125em;
+    text-decoration: none;
+    border-right: 1px;
+    align-content: center;
+}
+
+p {
+    padding-top: 3em;
+    width: 80%;
+    margin: 0 auto
+
+}
+.Subtitle {
+    
+    background-color: #5A4FD2;
+    padding: 3em;
+    height: 500px;
+}
+
+h1 {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3rem;
+
+
+}
+
+.skills {
+    margin: 0 auto;
+    width: 80%;
+  
+}
+
+h2 {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+header {
+    background: linear-gradient(rgba(20, 6, 118, 0.30), transparent),
+                url(image/Background_image.jpg) no-repeat center;
+                -webkit-gradient(left top, left bottom, 
+                color-stop(0%, rgba(16,64,92,1)), 
+                color-stop(11%, rgba(16,64,92,0.93)), 
+                color-stop(29%, rgba(0,90,143,0.83)), 
+                color-stop(76%, rgba(73,166,212,0.55)), 
+                color-stop(97%, rgba(73,166,212,0.42)));
+    background-size: 100em;
+    height: 850px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.coba {
+
+    width: 200px;
+    height: 100px;
+    box-shadow: 15px 15px 15px;
+    background-color: red;
+
+}
